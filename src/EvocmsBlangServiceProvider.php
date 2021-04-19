@@ -13,7 +13,6 @@ class EvocmsBlangServiceProvider extends ServiceProvider
      */
     public function register()
     {
-
         $this->loadPluginsFrom(
             dirname(__DIR__) . '/assets/plugins/'
         );
